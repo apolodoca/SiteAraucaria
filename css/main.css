@@ -228,8 +228,8 @@ textarea {
 }
 .carrouselImagem{
     border-radius: 20px;
-    width: 220px;
-    height: 400px;
+    width: 250px;
+    height: 450px;
     object-fit: cover;
     margin-left: 10%;
     margin-right: 10%;
@@ -237,9 +237,11 @@ textarea {
 }
 .textoShort{
     font-family: "Kaisei harunoUmi", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: #000000;
     text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 

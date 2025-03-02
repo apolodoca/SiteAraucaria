@@ -21,7 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #000000;
+    background-color: #F3F2ED;
 }
 
 /*
@@ -103,7 +103,7 @@ textarea {
 }
 
 .headerDiv{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(207, 207, 207, 0.8);
     flex-direction: row;
     display: flex;
     height: 80px;
@@ -117,14 +117,14 @@ textarea {
 
 }
 .headerDiv img{
-    width: 70px;
+    width: 90px;
     height: 70px;
     margin-top: 5px;
     margin-left: 3%;
 
 }
 .nome{
-    color: white;
+    color: #000000;
     font-size: 30px;
     font-family: "kaisei harunoUmi", sans-serif;
     vertical-align: middle;
@@ -132,7 +132,7 @@ textarea {
     margin-left: 1%;
 }
 .ajude-nos{
-    color: white;
+    color: #000000;
     font-size: 30px;
     font-family: "kaisei harunoUmi", sans-serif;
     vertical-align: middle;
@@ -141,7 +141,7 @@ textarea {
 
 }
 .contato{
-    color: white;
+    color: #000000;
     font-size: 30px;
     font-family: "Kaisei harunoUmi", sans-serif;
     vertical-align: middle;
@@ -156,10 +156,10 @@ textarea {
     background-position: center;
     height: 100vh;
     width: 100%;
-    mask-image: linear-gradient(rgba(2,0,36,1) 0%, rgba(4,2,58,0.5) 47%, rgba(6,5,82,0.0) 100%);
+    mask-image: linear-gradient(rgb(0, 0, 0) 67%, rgba(0,0,0,0) 100%);
 }
 .tituloContainer{
-    color: white;
+    color: #ffffff;
     position: absolute;
     top: 30%;
     left: 12%;
@@ -168,6 +168,8 @@ textarea {
     font-size: 30px;
     align-items: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.3)
+
 }
 .iniciativa{
     font-size: 30px;
@@ -184,8 +186,8 @@ textarea {
 }
 .gralhaAzul{
     margin-left: 90%;
-    height: 40vh;
-    width: 60vh;
+    height: 30vh;
+    width: 45vh;
 
 }
 .textoContainer{
@@ -193,13 +195,13 @@ textarea {
     margin-right: 10%;
     font-family: "Kaisei harunoUmi", sans-serif;
     font-size: 30px;
-    color: white;
+    color: #000000;
     text-align: center;
 }
 .esquilo{
     margin-right: 70%;
-    height: 40vh;
-    width: 60vh;
+    height: 30vh;
+    width: 45vh;
 
 }
 .carrousel{
@@ -236,7 +238,7 @@ textarea {
 .textoShort{
     font-family: "Kaisei harunoUmi", sans-serif;
     font-size: 12px;
-    color: white;
+    color: #000000;
     text-align: center;
 }
 

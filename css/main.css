@@ -301,13 +301,32 @@ textarea {
     margin-left: 5%;
     text-align: center;
     vertical-align:  center;
-    margin-top: 8%;
+    margin-top: 5%;
+}
+.divididoDireita{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-content: center;
+    justify-content: center;
+    vertical-align:  center;
+    margin-bottom: 5%;
+
 }
 
+.divididoDireita img{
+    width: 70%;
+    border-radius: 5%;
+    margin-left:5%;
+}
 
-
-
-
+.divididoDireita div{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    vertical-align:  center;
+    margin-top: 5%;
+}
 
 
 /* ==========================================================================

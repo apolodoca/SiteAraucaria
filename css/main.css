@@ -327,7 +327,53 @@ textarea {
     vertical-align:  center;
     margin-top: 5%;
 }
+.divididoEsquerdaPortifolio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-content: center;
+    justify-content: center;
+    vertical-align:  center;
+    margin-bottom: 5%;
 
+}
+.divididoEsquerdaPortifolio img{
+    width: 140%;
+    border-radius: 5%;
+    margin-right:5%;
+
+}
+.divididoEsquerdaPortifolio div{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.divididoDireitaPortifolio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-content: center;
+    justify-content: center;
+    vertical-align:  center;
+    margin-bottom: 5%;
+
+}
+
+.divididoDireitaPortifolio img{
+    width: 160%;
+    border-radius: 5%;
+    margin-left:5%;
+}
+
+.divididoDireitaPortifolio div{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    vertical-align:  center;
+    margin-top: 5%;
+}
 
 /* ==========================================================================
    Helper classes

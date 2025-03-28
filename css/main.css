@@ -114,7 +114,6 @@ textarea {
     text-align: center;
     z-index: 1000;
 
-
 }
 .headerDiv img{
     width: 90px;
@@ -482,8 +481,291 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width:600px) {
+    html, body {
+        max-width: 100%;
+    }
+
+    .headerDiv{
+        background-color: rgba(155, 255, 122, 0.8);
+        flex-direction: row;
+        display: flex;
+        height: 80px;
+        width:100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+        z-index: 1000;
+        vertical-align: center;
+
+    }
+    .headerDiv img{
+        width: 90px;
+        height: 70px;
+        margin-top: 5px;
+        margin-left: 25%;
+
+
+    }
+    .nome{
+        color: #000000;
+        font-size: 30px;
+        font-family: "kaisei harunoUmi", sans-serif;
+        vertical-align: middle;
+        align-self: center;
+        margin-left: 1%;
+    }
+    .ajude-nos{
+        color: #000000;
+        font-size: 30px;
+        font-family: "kaisei harunoUmi", sans-serif;
+        vertical-align: middle;
+        align-self: center;
+        margin-left: 35%;
+
+    }
+    .contato{
+        color: #000000;
+        font-size: 30px;
+        font-family: "Kaisei harunoUmi", sans-serif;
+        vertical-align: middle;
+        align-self: center;
+        margin-left: 2%;
+
+    }
+    .fundoAraucaria{
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        mask-image: linear-gradient(rgb(0, 0, 0) 67%, rgba(0,0,0,0) 100%);
+    }
+    .tituloContainer{
+        color: #ffffff;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        font-family: "Kaisei harunoUmi", sans-serif;
+        z-index: 300;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3)
+
+    }
+    .iniciativa{
+        font-size: 20px;
+    }
+    .imageContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-right: 10%;
+        margin-top: 0;
+        visibility: hidden;
+    }
+    .gralhaAzul{
+        margin-left: 90%;
+        height: 30vh;
+        width: 45vh;
+
+    }
+    .textoContainer{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Kaisei harunoUmi", sans-serif;
+        font-size: 30px;
+        color: #000000;
+        text-align: center;
+    }
+    .esquilo{
+        margin-right: 70%;
+        height: 30vh;
+        width: 45vh;
+
+    }
+    .carrousel{
+
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 5%;
+        flex-direction: column;
+
+
+    }
+    .carrouselShort{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-right: 45%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+    }
+    .carrouselImagem{
+        border-radius: 20px;
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+        horiz-align: center;
+        align-items: center;
+
+    }
+    .textoShort{
+        font-family: "Kaisei harunoUmi", sans-serif;
+        font-size: 25px;
+        color: #000000;
+        margin-left: 40%;
+
+
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        background-color: #9bff7a;
+
+
+    }
+    .rodapePaulo{
+        margin-left: 3%;
+        width: 18%;
+
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .rodapeLogo{
+        margin-left: 3%;
+        width: 8%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        display: none;
+
+    }
+    .contato{
+        color: #000000;
+        font-size: 20px;
+        font-family: "kaisei harunoUmi", sans-serif;
+        vertical-align: middle;
+        align-self: center;
+        margin-left: 0 !important;
+    }
+    .tituloKaigang{
+        margin-top: 5%;
+        font-family: "kaisei harunoUmi", sans-serif;
+        text-align: center;
+    }
+    .redesSociaisImg{
+        margin-left: 0 !important;
+    }
+    .divididoEsquerda{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        align-content: center;
+        justify-content: center;
+        vertical-align:  center;
+        margin-bottom: 5%;
+
+    }
+    .divididoEsquerda img{
+        width: 60%;
+        border-radius: 5%;
+        margin-right:5%;
+    }
+    .divididoEsquerda div{
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+        vertical-align:  center;
+        margin-top: 5%;
+    }
+    .divididoDireita{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        align-content: center;
+        justify-content: center;
+        vertical-align:  center;
+        margin-bottom: 5%;
+
+    }
+
+    .divididoDireita img{
+        width: 70%;
+        border-radius: 5%;
+        margin-left:5%;
+    }
+
+    .divididoDireita div{
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+        vertical-align:  center;
+        margin-top: 5%;
+    }
+    .divididoEsquerdaPortifolio{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        align-content: center;
+        justify-content: center;
+        vertical-align:  center;
+        margin-bottom: 5%;
+
+    }
+    .divididoEsquerdaPortifolio img{
+        width: 140%;
+        border-radius: 5%;
+        margin-right:5%;
+
+    }
+    .divididoEsquerdaPortifolio div{
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .divididoDireitaPortifolio{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        align-content: center;
+        justify-content: center;
+        vertical-align:  center;
+        margin-bottom: 5%;
+
+    }
+
+    .divididoDireitaPortifolio img{
+        width: 160%;
+        border-radius: 5%;
+        margin-left:5%;
+    }
+
+    .divididoDireitaPortifolio div{
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+        vertical-align:  center;
+        margin-top: 5%;
+    }
 }
 
 @media print,
